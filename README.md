@@ -45,6 +45,9 @@ With this setup and dataset, we aimed to focus on a few features of the dataset:
 - dataType(label):
    - “normal” when benign/legitimate network traffic flow
    - “attack” when illegitimate/malicious network traffic flow
+Once the dataset is processed through this algorithm, the normal and attack images generated looks like below.
+
+![](images/noramal_attack_images.png)
 
 ## Use Case ##
 After generating the dataset, we developed an IDS solution based on transfer learning (TL) and convolutional neural networks (CNN) to detect de-authentication and disassociation attacks that can be applied to any wi-fi network infrastructure. To prepare the dataset and suite it to the TL and CNN-based IDS, we further went through a number of preprocessing stages.  
