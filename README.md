@@ -9,7 +9,9 @@ The following illustrates the main objectives of the Wi-Fi De-authentication_Dis
 - generating normal Wi-Fi traffic data using real user devices and launching attacks using two different tools (Kali Linux and Deauther)
 - building an automated process that collects, parses, visualizes and analyzes the the network traffic data built on top of Elastic Stack (Elasticsearch, Logstash, and Kibana)
 - producing a structured dataset that can be used for further steps in machine/deep learning-based IDS development
-- futher preprocessing this dataset and used in our IDS development called "Transfer and CNN-Based IDS for De-authentication (Disassociation) DoS Attack Detection";
+- futher preprocessing this dataset and useing it in our IDS development called "Transfer and CNN-Based IDS for De-authentication (Disassociation) DoS Attack Detection";
 We evaluate the performance of machine and deep learning algorithms using the CICIoT2023 dataset to classify and detect IoT network traffic as malicious or benign.
 
 This Wi-Fi De-authentication_Disassociation dataset project and activities around it can be summarized in the following steps:
+
+## Testbed Setup
