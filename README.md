@@ -28,5 +28,6 @@ The testbed setup can be represented by the following two logical topologies:
 ![](images/Wi-Fi_traffic_generator_and_attacks_module.png)
 The above topoloy shows the logical setup of the client devices for normal traffic, the two attackers carried out from the Kali Linux machine and NodeMCU Deauther tool configured machine, and the OpenWrt-based access point. 
 The topoloy below shows the setup for attack and normal traffic collection from the access point and parsing the unstructured traffic data through logstash and developed parsing algorithm, storing at Elasticsearch, analysis and visualization of the structured data by Kibana, and finally generating the dataset which is ready for further machine learning pre-processing. 
+
 ![](images/Colleting_parsing_storing_generating_module.png)
 
