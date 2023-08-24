@@ -19,7 +19,7 @@ Our testbed setup was configured as follows:
 - access point which is configured using OPenWrt
 - attackers: two different machies are used:
   - attacker1 is configured on a 64-bit Windows 11 machine where a NodeMCU device loaded with deauther tool is connected into
-  - attacker2 is configured on Kali Linux virtual machine hosted on a 64-bit Windows 11 machine along with a wireless adaptor () plugted into the network interface  of the host machine
+  - attacker2 is configured on Kali Linux virtual machine hosted on a 64-bit Windows 11 machine along with a wireless adaptor (Atheros AR9271) plugted into the network interface  of the host machine
 - another  64-bit Windows machine hosts ELK and collects traffic from the access point, parses, stores, analyzes and generates a structured dataset 
 
 The testbed setup can be represented by the following two logical topologies:
