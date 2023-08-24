@@ -55,7 +55,7 @@ After performing a basic cleaning of the dataset, we passed it through our novel
 -  saves each image with its own file name.
 -  it also performs other tasks such as sorting, conversion to minutes, figure formatting, etc.
 
-The TL and CNN-based IDS solution we developed was then trained and evaluated with the generated images of the dataset.
+The TL and CNN-based IDS solution we developed was then trained and evaluated with the generated images of the dataset in detecting de-authentication and disassociation attacks.
 
 ## Contributing ##
 Currently, this dataset project is not under development, but we are working to make our IDS solution publicly available to show the results of using this dataset in the use case. However, any contribution is welcome. Please contact one of the authors of the paper.
