@@ -25,5 +25,6 @@ Our testbed setup was configured as follows:
 
 The testbed setup can be represented by the following two logical topologies:
 
-![](Images/De-authentication_Disassociation Attacks-Wi-Fi traffic generator module.png)
+![](images/Wi-Fi_traffic_generator_and_attacks_module.png)
+![](images/Colleting_parsing_storing_generating_module.png)
 
