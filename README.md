@@ -49,7 +49,8 @@ The composition of attack and normal Wi-Fi network traffic samples we generated 
 
 | Data Type (Label) | Number of Samples | Description |
 | --------------- | ---------------- | ---------- |
-| Attack |376,430   | •	Carried out October 4-27, 2022 |
+| Attack |376,430   | •	Carried out October 4-27, 2022 
+                      •	Continuous attack Wi-Fi traffic data was carried out at different tune durations including variable time from 5 to 30 minutes, hours, and whole day|
 | Normal | 233,130 | •	Carried out October 11-31, 2022 |
 | Total Samples | 609,560 |
 
