@@ -51,7 +51,7 @@ The composition of attack and normal Wi-Fi network traffic samples we generated 
 | --------------- | ---------------- | ---------- |
 | Attack |376,430   | •	Carried out October 4-27, 2022 <br> •	Continuous attack Wi-Fi traffic data was carried out at different tune durations including variable time from 5 to 30 minutes, hours, and whole day |
 | Normal | 233,130  | •	Carried out October 11-31, 2022 <br> • Generating continuous normal Wi-Fi traffic data was car-ried out at different variable time where some are for 1  to 30 minutes while others are hours to whole day |
-| Total Samples | 609,560 
+| Total Samples | 609,560 | Normal and attack samples both combined|
 
 Once the dataset is processed through this algorithm, the normal and attack images generated looks like below.
 
