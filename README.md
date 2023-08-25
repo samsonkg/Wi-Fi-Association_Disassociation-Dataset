@@ -47,6 +47,7 @@ With this setup and dataset, we aimed to focus on a few features of the dataset:
    - “attack” when illegitimate/malicious network traffic flow
 The composition of attack and normal Wi-Fi network traffic samples we generated in our testbed is shown in the table below.
 |Data Type (Label)| Number of Samples| Description|
+| ------------- | ------------- | ------------- |
 |Attack|376,430|•	Carried out October 4-27, 2022|
 |Normal|233,130|•	Carried out October 11-31, 2022 |
 |Total Samples|609,560|
