@@ -60,6 +60,8 @@ Once the dataset is processed through our preprocessing novel algorithm, the nor
 
 ![](images/noramal_attack_images.png)
 
+Any size and number of attack and normal Wi-Fi traffic samples can be generated using this testbed but in our use case, we used transfer learning-based CNN which overcomes dataset insufficiency issues and the samples generated are enough to evaluate our IDS model. 
+
 ## Use Case ##
 After generating the dataset, we developed an IDS solution based on transfer learning (TL) and convolutional neural networks (CNN) to detect de-authentication and disassociation attacks that can be applied to any wi-fi network infrastructure. To prepare the dataset and suite it to the TL and CNN-based IDS, we further went through a number of preprocessing stages.  
 After performing a basic cleaning of the dataset, we passed it through our novel algorithm, which, in its minimum function:
