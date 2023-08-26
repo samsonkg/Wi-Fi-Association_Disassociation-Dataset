@@ -40,8 +40,8 @@ With this setup and dataset, we aimed to focus on a few features of the dataset:
 - timestamp: The date and time at which the traffic data is logged by the AP
 - mac_address: the unique identifier for each device in the testbed
 - association-disassociation:
-   - “Associated” when client device is associated/connected
-   - “disassociated” when client device is disassociated/disconnected
+   - “Associated” when client device is associated/connected to the access point
+   - “disassociated” when client device is disassociated/disconnected from the access point
 - dataType(label):
    - “normal” when benign/legitimate network traffic flow
    - “attack” when illegitimate/malicious network traffic flow
