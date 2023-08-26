@@ -53,6 +53,9 @@ The composition of attack and normal Wi-Fi network traffic samples we generated 
 | Normal | 233,130  | •	Carried out October 11-31, 2022 <br> • Generating continuous normal Wi-Fi traffic data was car-ried out at different variable time where some are for 1  to 30 minutes while others are hours to whole day |
 | Total Samples | 609,560 | Normal and attack samples both combined|
 
+Considering the network traffic log data  as sequence of events, we defined a fixed window size. Using the predefined window size, association and disassociation network traffic in the same sliding window are seen as an itemset in a single transaction. We im-plemented this per  device (MAC address) where each client’s association and disassoci-ation time duration per day is split into the defined window size. 
+During attacks, the number of association and disassociation generated are huge as compared to normal network traffic flow, that's why attack samples are more than the normal samples. However, when these samples are converted into images, the attack images much less than the normal image samples. This is because the many attack samples become part of a single image attack file as compared to the normal image sample. Considering 10 minutes window size of connection time, we transformed the association and disassociation duration to behave like a digital form; association time duration to be high (digital value 1) and disassociation to be low (digital value 0). With these assumptions, we converted our entire dataset into images to be suitable for the IDS model we developed.  
+
 Once the dataset is processed through this algorithm, the normal and attack images generated looks like below.
 
 ![](images/noramal_attack_images.png)
