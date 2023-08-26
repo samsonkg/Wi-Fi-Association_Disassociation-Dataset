@@ -36,7 +36,7 @@ As stated above, we collected the Wi-Fi network traffic of the clinet devices an
 - To generate the normal wi-fi traffic, we configured the clinets to associate and disassociate mostly in 1 minute, but we have included varieties like 5 minutes and above
 - To generate attack i-fi traffic, we launched the attacks for various time durations, like 5 minutes or less, 10 minutes, 30 minutes, 1 hour, and even the whole day.
 - In both these configurations for normal and attack, we included random time durations to show the diversified nature of associations and disassociations of clients with the access point during normal as well as attack conditions.
-With this setup and dataset, we aimed to focus on a few features of the dataset: timestamp, mac address of devices, association-disassociation, and the data type (label).
+With this setup and dataset, we aimed to focus on a few features of the dataset: timestamp, mac address of devices, association-disassociation, and the data type (label). Since we used real user devices (except the raspberry PIs), we replaced the mac addresses of all the 16 devices with with the names **device1** to **device16**. 
 - timestamp: The date and time at which the traffic data is logged by the AP
 - mac_address: the unique identifier for each device in the testbed
 - association-disassociation:
