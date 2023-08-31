@@ -49,8 +49,8 @@ The composition of attack and normal Wi-Fi network traffic samples we generated 
 
 | Data Type (Label) | Number of Samples | Description |
 | --------------- | ---------------- | ---------- |
-| Attack |376,430   | •	Carried out October 4-27, 2022 <br> •	Continuous attack Wi-Fi traffic data was carried out at different tune durations including variable time from 5 to 30 minutes, hours, and whole day |
-| Normal | 233,130  | •	Carried out October 11-31, 2022 <br> • Generating continuous normal Wi-Fi traffic data was car-ried out at different variable time where some are for 1  to 30 minutes while others are hours to whole day |
+| Attack |376,430   | •	Carried out October 4-27, 2022 <br> •	Continuous attacl carried out against the AP/clients at different time durations: e.g., 5minutes, 30 minutes, several hours, and even the whole day |
+| Normal | 233,130  | •	Carried out October 11-31, 2022 <br> • Generating continuous normal Wi-Fi traffic data was car-ried out at different variable time e.g., 1minute, 3minutes, 5 minutes, 30 minutes, several hours, the whole day. |
 | Total Samples | 609,560 | Normal and attack samples both combined|
 
 Considering the network traffic log data  as sequence of events, we defined a fixed window size. Using the predefined window size, association and disassociation network traffic in the same sliding window are seen as an itemset in a single transaction. We im-plemented this per  device (MAC address) where each client’s association and disassoci-ation time duration per day is split into the defined window size. 
