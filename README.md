@@ -1,4 +1,6 @@
 # Wi-Fi Association_Disassociation Dataset
+[![Paper](https://img.shields.io/badge/Paper-Published-blue)](https://doi.org/10.3390/electronics12173731)
+
 
 This project aims to generate a real-time dataset for intrusion detection systems (IDS) in IEEE 802.11 (Wi-Fi) environments, with the main focus on de-authentication and disassociation attacks detection. 
 This dataset is part of the main goal of our research, which aims to propose a novel IDS for de-authentication and disassociation attack detection and advance the development of IDSs in all real-world Wi-Fi network infrastructures. To accomplish this, de-authentication and disassociation attacks are executed on a Wi-Fi testbed consisting of 16 devices.
