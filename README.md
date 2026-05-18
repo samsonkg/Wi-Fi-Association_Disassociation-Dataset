@@ -86,3 +86,4 @@ The authors would like to thank the British Telecom Ireland Innovation Center (B
 > Samson Kahsay Gebresilassie, Joseph Rafferty, Liming (Luke) Chen, Zhan Cui, and Mamun Abu-Tair "Transfer and CNN-Based De-authentication (Disassociation) DoS Attack Detection in IoT Wi-Fi Networks"
 > Submitted to: MDPI electronics Special Issue: Communication, Sensing and Computing for Intelligent Internet of Things Enabled Applications
 
+[📄 Read the Paper](https://doi.org/10.3390/electronics12173731)
